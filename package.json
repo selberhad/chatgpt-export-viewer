@@ -27,6 +27,14 @@
   "author": "selberhad@gmail.com",
   "license": "MIT",
   "description": "Terminal CLIs to browse ChatGPT export ZIPs: list, JSON preview, conversation reader, transcript export.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selberhad/chatgpt-export-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selberhad/chatgpt-export-viewer/issues"
+  },
+  "homepage": "https://github.com/selberhad/chatgpt-export-viewer#readme",
   "keywords": [
     "chatgpt",
     "openai",
