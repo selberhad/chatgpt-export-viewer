@@ -1,4 +1,4 @@
-# ARCHIVE-BROWSER.md — DocDD Kickoff
+# Project Kickoff
 
 A clarity-first, agent-oriented development plan for building a lightning-fast TUI archive browser for ChatGPT export ZIPs.  
 This document is disposable scaffolding: clarity and validated integrations are the true outputs.
@@ -103,4 +103,3 @@ Each stage introduces at most one new primitive, then integrates it with an exis
 
 - **Final Product**: Lightning-fast Node.js archive browser for ChatGPT exports.
 - **Process**: 5 primitives (A, B, D, F, H, J) woven into 5 integrations (C, E, G, I, K).
-- **DocDD Compliance**: Each step produces SPEC.md, PLAN.md, and LEARNINGS.md; only the final system and final docs remain.
