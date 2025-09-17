@@ -16,6 +16,7 @@
   },
   "type": "module",
   "bin": {
+    "chatgpt-export-viewer": "cli/gptbrowser.js",
     "zipmeta": "cli/zipmeta.js",
     "listzip": "cli/listzip.js",
     "browsezip": "cli/browsezip.js",
