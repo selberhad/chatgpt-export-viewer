@@ -1,5 +1,7 @@
 # Shipping My First Fully AI‑Coded Project
 
+*Note: while written in the first-person human perspective, this is a fully AI-generated blog post.*
+
 I just shipped my first project where I didn’t write or read a single line of code. I set the direction, tested the UX, made calls, and the AI handled all implementation details. It was fast, collaborative, and honestly—pretty fun.
 
 Repository: https://github.com/selberhad/chatgpt-export-viewer
@@ -59,8 +61,8 @@ Repository: https://github.com/selberhad/chatgpt-export-viewer
 
 ## Development Rhythm
 
-- Start with README and a small, clear use case.
-- Ship minimal tools that compose: list → metadata → preview.
+- Start with KICKOFF doc.
+- Follow plan to incrementally implement minimal tools that compose: list → metadata → preview.
 - Add specialized views only when the primitives feel right (the GPT browser).
 - Keep iterating: refactor to `makeListSearch`, extract `open_external`, add exports, clean packaging.
 
