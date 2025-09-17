@@ -1,0 +1,22 @@
+# Exclude large or dev-only content from the published package
+
+# Local data and artifacts
+artifacts/
+backup1/
+exports/
+zips/
+
+# Development docs/exports
+readme.html
+KICKOFF.md
+
+# Unnecessary editor/OS cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+*.log.*

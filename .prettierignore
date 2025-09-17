@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+artifacts/
+backup1/
+exports/
+zips/
+*.min.js
+

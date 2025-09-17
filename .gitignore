@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build and coverage artifacts
+dist/
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/project files
+.vscode/
+.idea/
+*.swp
+
+# Local data and caches
+artifacts/
+backup1/
+exports/
+zips/
+.cache/
+.temp/
+.tmp/
+
+# Misc
+readme.html

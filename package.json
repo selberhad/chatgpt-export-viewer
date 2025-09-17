@@ -1,0 +1,63 @@
+{
+  "name": "chatgpt-export-viewer",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "zipmeta": "node cli/zipmeta.js",
+    "listzip": "node cli/listzip.js",
+    "browsezip": "node cli/browsezip.js",
+    "tuilist": "node cli/tuilist.js",
+    "jsontree": "node cli/jsontree.js",
+    "gptbrowser": "node cli/gptbrowser.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier -w \"**/*.{js,md}\"",
+    "format:check": "prettier -c \"**/*.{js,md}\""
+  },
+  "type": "module",
+  "bin": {
+    "zipmeta": "cli/zipmeta.js",
+    "listzip": "cli/listzip.js",
+    "browsezip": "cli/browsezip.js",
+    "jsontree": "cli/jsontree.js",
+    "tuilist": "cli/tuilist.js",
+    "gptbrowser": "cli/gptbrowser.js",
+    "mapping-reduce": "cli/mapping_reduce.js"
+  },
+  "author": "selberhad@gmail.com",
+  "license": "MIT",
+  "description": "Terminal CLIs to browse ChatGPT export ZIPs: list, JSON preview, conversation reader, transcript export.",
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "export",
+    "zip",
+    "terminal",
+    "cli",
+    "tui",
+    "json",
+    "viewer",
+    "browser"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "cli/",
+    "lib/",
+    "README.md",
+    "CODE_MAP.md"
+  ],
+  "dependencies": {
+    "string-kit": "^0.19.3",
+    "terminal-kit": "^3.1.2",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "globals": "^15.11.0",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.3.3"
+  }
+}
